@@ -1,0 +1,1 @@
+export const cssPrefix = className => `rec rec-${className}`;
