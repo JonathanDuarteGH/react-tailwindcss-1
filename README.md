@@ -1,8 +1,47 @@
 # React & Tailwindcss Project
 
-- This is a repo specifically made to view or clone the source code at its entirety.
+- This project used react, tailwindcss, and other sub features to clone a company's portfolio landing page designed by [BootstrapMade.com](https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/).
+
+![Bootstrap Clone](Bootstrap-Template-Gif.gif)
+
+## Folder Structure
+
+```
+| src
+  | assets
+    || main.css
+    || tailwind.css
+  | components
+    || Footer.js
+    || FooterBottom.js
+    || NavBar.js 
+  | images
+    | filler
+      || (...fillerImages)
+    | portfolio
+      || (...portfolioImages)
+  | utils
+    || helpers.js
+  | views
+    || FullWeb.js
+  || index.js
+```
+
+## Component Tree
+
+```
+|| index.js
+  || main.css
+  || tailwind.css
+  || Navbar.js
+    || FullWeb.js
+      || Footer.js
+        || FooterBottom.js
+```
 
 ## Getting Started
+
+- This is a repo specifically made to view or clone the source code at its entirety.
 
 - In order to get a copy of the website up and running on your local machine, follow these instructions.
 
@@ -29,10 +68,10 @@ index.html
 
 ## Built With
 
-* React.js
+* [React.js](https://reactjs.org/)
+* [TailwindCSS](https://tailwindcss.com/)
+* [Javascript](https://www.javascript.com/) 
 * HTML5
-* Tailwindcss
-* JavaScript
 * PostCSS
 
 ## Images Sourced Through
@@ -41,7 +80,7 @@ index.html
 
 ## Website Hosted On
 
-* [Netlify](https://www.netlify.com/)
+* [Netlify](https://react-tailwindcss-1.netlify.app)
 
 ## License
 
