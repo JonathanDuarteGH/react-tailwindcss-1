@@ -149,6 +149,11 @@ module.exports = {
       '48': '12rem',
       '56': '14rem',
       '64': '16rem',
+      '96': '24rem',
+      '112': '30rem',
+      '128': '32rem',
+      '164': '40rem',
+      '328': '90rem',
     },
     backgroundColor: theme => theme('colors'),
     backgroundOpacity: theme => theme('opacity'),
@@ -280,7 +285,12 @@ module.exports = {
     }),
     inset: {
       '0': '0',
+      '-30': '-4rem',
+      '-40': '-10rem',
+      '-48': '-15rem',
+      '-64': '-34rem',
       auto: 'auto',
+      '1/2': '50%',
     },
     letterSpacing: {
       tighter: '-0.05em',
@@ -623,6 +633,12 @@ module.exports = {
       '700': '700ms',
       '1000': '1000ms',
     },
+  },
+  extend: {
+    inset: {
+      '-16': '-4rem',
+      '-40': '-10rem',
+    }
   },
   variants: {
     accessibility: ['responsive', 'focus'],
