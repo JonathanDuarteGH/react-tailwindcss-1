@@ -11,7 +11,7 @@ export default function FooterBottom() {
         <div style={mystyle} className="text-center text-lg text-white">
           <p>Copyright &copy; {currentYear}, All Rights Reserved.</p>
           <div className="footer_copyright">
-            Designed by <a href="https://tailwindcss.com/" className="text-red-500">tailwindcss.com</a>
+            Designed in <a href="https://tailwindcss.com/" className="text-red-500">tailwindcss.com</a>
           </div>
         </div>
       </div>
