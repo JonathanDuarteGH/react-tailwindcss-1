@@ -562,7 +562,6 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
 }
 
 /**
@@ -10279,8 +10278,8 @@ video {
   right: -10rem;
 }
 
-.-bottom-40 {
-  bottom: -10rem;
+.-bottom-20 {
+  bottom: -2rem;
 }
 
 .-left-40 {

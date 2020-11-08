@@ -285,7 +285,7 @@ module.exports = {
     }),
     inset: {
       '0': '0',
-      '-30': '-4rem',
+      '-20': '-2rem',
       '-40': '-10rem',
       '-48': '-15rem',
       '-64': '-34rem',
@@ -635,6 +635,9 @@ module.exports = {
     },
   },
   extend: {
+    animation: {
+      'spin-slow': 'spin 3s linear infinite',
+    },
     inset: {
       '-16': '-4rem',
       '-40': '-10rem',
@@ -642,6 +645,7 @@ module.exports = {
   },
   variants: {
     accessibility: ['responsive', 'focus'],
+    animation: ['responsive', 'motion-safe', 'motion-reduce'],
     alignContent: ['responsive'],
     alignItems: ['responsive'],
     alignSelf: ['responsive'],
