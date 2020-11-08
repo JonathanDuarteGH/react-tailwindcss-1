@@ -87,7 +87,7 @@ const Portfolio = () => {
           <ul id="portfolio-filters" className="mb-12 list-none flex justify-center flex-wrap">
             {buttonList.map((item, index) => (
               <li data-filter=".filter-all .filter-app, .filter-card, .filter-logo, .filter-web" className="filter-active" key={index}>
-                <button href="#All" onClick={setFade(!fade)} className="btn btn-banner text-black uppercase bg-gray-200 text-md text-center flex mx-4 mb-2 px-6 py-2 border rounded hover:bg-red-600 hover:text-white focus:text-white focus:outline-none focus:bg-red-600 transition ease-in-out duration-300">{item}
+                <button href="#All" className="btn btn-banner text-black uppercase bg-gray-200 text-md text-center flex mx-4 mb-2 px-6 py-2 border rounded hover:bg-red-600 hover:text-white focus:text-white focus:outline-none focus:bg-red-600 transition ease-in-out duration-300">{item}
                 </button>
               </li>
             ))}
@@ -97,7 +97,7 @@ const Portfolio = () => {
       <div className="container px-4 mx-auto">
         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {imageList.map((item, index) => (
-            <a href="" key={index} onChange={handleOnChange}>
+            <a href="" key={index}>
               <div className='cursor-pointer relative overflow-hidden'>
                 <img className='h-full w-full object-none object-left transition duration-700 ease-in-out transform hover:-translate-y-4' src={item.image} alt={item.name} />
                 <div className='absolute pl-1 pt-2 leading-tight h-16 w-full bg-red-600 -bottom-20 transition duration-300 ease-in-out transform hover:-translate-y-4'>
