@@ -84,7 +84,7 @@ const Portfolio = () => {
       </div>
       <div className="container px-4 mx-auto">
         <div className="w-full">
-          <ul id="portfolio-filters" className="mb-12 list-none flex justify-center flex-wrap">
+          <ul id="portfolio-filters" className="mb-12 list-none flex justify-center flex-wrap" onClick={setFade(!fade)}>
             {buttonList.map((item, index) => (
               <li data-filter=".filter-all .filter-app, .filter-card, .filter-logo, .filter-web" className="filter-active" key={index}>
                 <button href="#All" className="btn btn-banner text-black uppercase bg-gray-200 text-md text-center flex mx-4 mb-2 px-6 py-2 border rounded hover:bg-red-600 hover:text-white focus:text-white focus:outline-none focus:bg-red-600 transition ease-in-out duration-300">{item}
@@ -95,7 +95,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="container px-4 mx-auto">
-        <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4" onChange={handleOnChange}>
           {imageList.map((item, index) => (
             <a href="" key={index}>
               <div className='cursor-pointer relative overflow-hidden'>
