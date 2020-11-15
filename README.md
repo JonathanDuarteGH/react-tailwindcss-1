@@ -9,12 +9,22 @@
 ```
 | src
   | assets
+    || carousel.module.scss
     || main.css
     || tailwind.css
   | components
+    | subComponents
+      || Carousel.js
+      || useTransition.js
+    || About.js
+    || Contact.js
+    || Cta2.js
     || Footer.js
     || FooterBottom.js
+    || Header.js
     || NavBar.js 
+    || Portfolio.js
+    || Service.js
   | images
     | filler
       || (...fillerImages)
@@ -33,10 +43,16 @@
 || index.js
   || main.css
   || tailwind.css
-  || Navbar.js
-    || FullWeb.js
-      || Footer.js
-        || FooterBottom.js
+  || FullWeb.js
+    || Navbar.js
+    || Header.js
+    || Service.js
+    || Portfolio.js
+    || About.js
+    || Cta2.js
+    || Contact.js
+    || Footer.js
+    || FooterBottom.js
 ```
 
 ## Getting Started
