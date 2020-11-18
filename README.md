@@ -22,6 +22,7 @@
     || Footer.js
     || FooterBottom.js
     || Header.js
+    || Layout.js
     || NavBar.js 
     || Portfolio.js
     || Service.js

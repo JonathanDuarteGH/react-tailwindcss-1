@@ -7,9 +7,7 @@ export default function FullWeb({ children }) {
   return (
     <>
       <NavBar />
-      <Layout>
-        {children}
-      </Layout>
+      <Layout />
       <FooterBottom />
     </>
   );
