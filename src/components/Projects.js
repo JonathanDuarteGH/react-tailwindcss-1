@@ -29,7 +29,7 @@ const Projects = () => {
       </div>
       <div className="container px-4 mx-auto">
         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {isGrid === "All" && imageList.map((item, i) => (
+          {(isGrid === "All" || isGrid === "") && imageList.map((item, i) => (
             <WebImage key={i} src={item} />
           ))}
           {isGrid === "App" && appList.map((item, i) => (
