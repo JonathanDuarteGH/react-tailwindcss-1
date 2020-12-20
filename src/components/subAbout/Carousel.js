@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from '../../assets/carousel.module.scss';
-import useTransition from '../subComponents/useTransition';
+import useTransition from '../subAbout/useTransition';
 
 export default function Carousel({ children, width, unit }) {
   // here we extracted the carousel functionality into its own hook

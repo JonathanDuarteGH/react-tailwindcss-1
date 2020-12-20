@@ -44,7 +44,8 @@ export default function useTransition(width, children) {
       // otherwise set the next action to be ''
       setNextAction('');
     }
-  }, [translate]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [translate, index, setNextAction, width]);
 
   // this effect hook will be triggered every time the action object changes.
   useEffect(() => {
@@ -91,7 +92,7 @@ export default function useTransition(width, children) {
       // update index
       setIndex(index - 1);
     }
-  }, [action]);
+  }, [action, index, children, translate, width, len]);
 
   // return all variables to be used with the hook.
   return {

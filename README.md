@@ -1,4 +1,4 @@
-# React & Tailwindcss Project
+# Portfolio Company Clone
 
 - This project used react, tailwindcss, and other sub features to clone a company's portfolio landing page designed by [BootstrapMade.com](https://bootstrapmade.com/tempo-free-onepage-bootstrap-theme/).
 

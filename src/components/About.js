@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from './subComponents/Carousel';
+import Carousel from './subAbout/Carousel';
 
 const About = () => {
   const theAgents =

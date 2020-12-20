@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Service from '../components/Service';
-import Portfolio from '../components/Portfolio';
+import Projects from '../components/Projects';
 import About from '../components/About';
 import Ct2a from '../components/Cta2';
 import Contact from '../components/Contact';
@@ -12,7 +12,7 @@ const Layout = () => {
     <>
       <Header />
       <Service />
-      <Portfolio />
+      <Projects />
       <About />
       <Ct2a />
       <Contact />

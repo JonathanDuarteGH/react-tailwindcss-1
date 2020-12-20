@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 import Layout from '../components/Layout'
 import FooterBottom from '../components/FooterBottom';
 
-export default function FullWeb({ children }) {
+export default function FullWeb() {
   return (
     <>
       <NavBar />
