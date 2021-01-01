@@ -92,6 +92,7 @@ export default function useTransition(width, children) {
       // update index
       setIndex(index - 1);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [action, children, width, len]);
 
   // return all variables to be used with the hook.

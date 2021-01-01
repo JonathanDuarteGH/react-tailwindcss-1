@@ -44,5 +44,6 @@
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.9.6"
-  }
+  },
+  "plugins": "react-hooks"
 }
